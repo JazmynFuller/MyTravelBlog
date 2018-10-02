@@ -1,51 +1,19 @@
 .container-fluid{
-    flex-wrap: wrap; 
+    overflow: hidden;
     margin: 0 !important;
     padding: 0 !important;
-}
-
-.bg-text h1{
-  font-size: 150px; 
-  letter-spacing: 12px;
-}
-
-.row-xl-1 {
-    background-color: black; 
-    overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.row-xl-1 a {
-    float: left;
-    color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.row-xl-1 a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-/* Add a color to the active/current link */
-.row-xl-1 .active {
-    background-color: #74bc9b;
-    color: white;
-}
-
-.row-xl-1 h2 {
-  text-align: right; 
-  color: white;
-  padding-top: 14px;
-  font-size: 17px;
 }
 
 
+#bg-text h1{
+  font-size: 100px; 
+  letter-spacing: 12px;
+  text-align: center;
+}
 
-.bg-text {
+
+#bg-text {
   background-image: url("glenb.jpg"); 
   background-position: center;
   background-repeat: no-repeat;
@@ -58,10 +26,46 @@
   text-shadow: 1px -1px 0 #000,-1px 1px 0 #bcbcbc,1px 1px 0 #000;
 }
 
-.text{
+#text{
  background-color: grey;
  color: #FFF;
  text-align: center;
  font-family: helvetica, sans-serif;
  font-size: 28px;
+ height: 100%;
+ margin: 0, 22%;
+}
+
+#recentPlaces{
+  background-color: #e2eaff; 
+  height: 100%;
+  text-align: center;
+  padding: 5% 0;
+}
+
+.col-lg-4 h3{
+  font-family: "Chicle", cursive;
+  font-size: 36px;
+  color: black;
+}
+
+p{
+ font-family: 'Karma', serif; 
+ text-align: center;
+ color: black;
+}
+
+
+img{
+  border-radius: 50%; 
+  padding: 2%
+}
+
+
+#clickHere{
+ background-color: black;
+ text-align: center;
+ color: white;
+ font-size: 18px;
+ font-family: 'Fredericka the Great', cursive;
 }
