@@ -7,7 +7,7 @@
 
 
 #bg-text h1{
-  font-size: 100px; 
+  font-size: 80px; 
   letter-spacing: 12px;
   text-align: center;
 }
@@ -68,4 +68,8 @@ img{
  color: white;
  font-size: 18px;
  font-family: 'Fredericka the Great', cursive;
+}
+
+.image{
+  max-width: 80%;
 }
