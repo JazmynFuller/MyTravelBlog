@@ -73,3 +73,17 @@ img{
 .image{
   max-width: 80%;
 }
+
+.navbar-brand{
+  color: #FFF !important;
+  font-family: 'Krub', sans-serif;
+  text-align: right;
+}
+
+.nav-item {
+  text-align: left;
+  font-size: 18px;
+  color: #FFF;
+  font-family: 'Niramit', sans-serif;
+
+}
